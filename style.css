@@ -1,16 +1,16 @@
 body {
-    background-color: rgb(225, 255, 255);
+  background-color: rgb(225, 255, 255);
 }
 #imageFromServer {
-    width: 200px;
+  width: 200px;
 }
 
 #button {
-    margin-left: 25px;
-    margin-top: 20px;
-font-size: large;
-border-radius: 5px;
-background-color: bisque;
-   width: 150px;
-
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: large;
+  border-radius: 5px;
+  background-color: bisque;
+  width: 150px;
 }
