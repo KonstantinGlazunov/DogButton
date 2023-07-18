@@ -4,3 +4,13 @@ body {
 #imageFromServer {
     width: 200px;
 }
+
+#button {
+    margin-left: 25px;
+    margin-top: 20px;
+font-size: large;
+border-radius: 5px;
+background-color: bisque;
+   width: 150px;
+
+}
