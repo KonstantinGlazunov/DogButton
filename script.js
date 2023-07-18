@@ -8,13 +8,9 @@ function showImage() {
         data = response.json();
         data.then((res) => {
             const imgUrl = res.message;
-           // if (!(document.getElementById('imageFromServer'))) { //не получилось выделить получение URL в отдельную функцию...
                 imageContent.insertAdjacentHTML('afterbegin', `<img id=imageFromServer src=${imgUrl} alt="imageFromServer">`)
                 const image = document.getElementById('imageFromServer');
-                setTimeout(() => image.remove(), 2000);
-        //    }
-
-
+            //    setTimeout(() => image.remove(), 2000);
         })
     })
 }
